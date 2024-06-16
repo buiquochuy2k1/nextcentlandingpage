@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+}
+
+.btn-primary {
+  @apply bg-brandPrimary hover:bg-newtralDGrey rounded px-7 py-2 text-white transition-all duration-300 hover:-translate-y-4;
+}
